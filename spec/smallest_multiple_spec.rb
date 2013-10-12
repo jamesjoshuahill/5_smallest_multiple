@@ -1,6 +1,7 @@
 require 'smallest_multiple'
 
 describe SmallestMultiple do
+
   let(:sm) { SmallestMultiple.new }
 
   it 'should know if a number is evenly divisible by a given number' do
@@ -36,4 +37,5 @@ describe SmallestMultiple do
   it 'should find the smallest number evenly divisible by 1..20' do
     expect(sm.smallest_multiple_1_to_20).to eq 232792560
   end
+
 end
